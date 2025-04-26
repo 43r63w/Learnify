@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35919.96 d17.13
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Modules", "Modules", "{165A012E-41FD-443D-A6B2-A7BCFD28363D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Courses", "Courses", "{41FB3A5F-9860-4E8A-9787-BD4184023586}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Courses.Api", "src\Modules\Courses\Courses.Api\Courses.Api.csproj", "{FAE9AF7B-6889-453B-B71B-0A35777D0295}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FAE9AF7B-6889-453B-B71B-0A35777D0295}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FAE9AF7B-6889-453B-B71B-0A35777D0295}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FAE9AF7B-6889-453B-B71B-0A35777D0295}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FAE9AF7B-6889-453B-B71B-0A35777D0295}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{165A012E-41FD-443D-A6B2-A7BCFD28363D} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{41FB3A5F-9860-4E8A-9787-BD4184023586} = {165A012E-41FD-443D-A6B2-A7BCFD28363D}
+		{FAE9AF7B-6889-453B-B71B-0A35777D0295} = {41FB3A5F-9860-4E8A-9787-BD4184023586}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BF1B0691-786C-48C6-963B-71C62D82B140}
+	EndGlobalSection
+EndGlobal
